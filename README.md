@@ -13,7 +13,7 @@ RasPerf is a fork (ish) of Raspbian which is optimised for my requirements. It w
 
 After installation it should use around 400MB of disk space and 21MB of RAM. 
 
-Note that this was build for my requirements. I am sharing it just in case anyone else finds it useful. 
+Note that this was built for my requirements. I am sharing it just in case anyone else finds it useful. 
 
 
 Why
