@@ -29,6 +29,8 @@ How
 
 The default IP address is 192.168.0.51 - Either login at the console or login via SSH and change your password.
 
+The default username and password is root/Password123
+
 Change your hostname - /etc/hostname
 Change your IP address as required - /etc/network/interfaces (note: No DHCP)
 Change your DNS settings - /etc/resolve.conf (note: Resolvconf has been removed so you must put your settings in here manually)
