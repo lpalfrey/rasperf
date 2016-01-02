@@ -1,0 +1,16 @@
+RasPerf-Wheezy 0.2 (3/1/2015)
+-----------------------------
+- Shrunk the Linux partition size to 800MB allowing the image to be deployed on a SD 1gb card.
+- Added a setup script (/usr/bin/rasperf-setup) which is exected at first logon
+- Removed dbus
+- Disabled cron on start-up
+- Cleaned up configuration files
+- Removed some unrequired libraries
+- Used localepurge to remove all locales apart from en/en_GB/en_US
+- Removed documentation from /usr/share/doc
+- SIZE: 320MB rootfs & 19MB of RAM
+
+RasPerf-Wheezy 0.1 (1/1/2015)
+-----------------------------
+- Initial Release
+- SIZE: 400MB rootfs & 21MB of RAM

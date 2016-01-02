@@ -9,9 +9,9 @@ RasPerf is a fork (ish) of Raspbian which is optimised for my requirements. It w
 - Reduced memory usage
 - Optimised firmware settings
 - Kernel optimizations
-- Generally performance optimized.
+- Generally performance optimized for the RPi2
 
-After installation it should use around 400MB of disk space and 21MB of RAM. 
+After installation it should use around 320MB of disk space and 19MB of RAM. 
 
 Note that this was built for my requirements. I am sharing it just in case anyone else finds it useful. 
 
@@ -27,12 +27,6 @@ There have also been some specific improvements which will help the performance 
 How
 ---
 
-The default IP address is 192.168.0.51 - Either login at the console or login via SSH and change your password.
+The default IP address is 192.168.0.51 & the default username and password is root/Password123
 
-The default username and password is root/Password123
-
-Change your hostname - /etc/hostname
-Change your IP address as required - /etc/network/interfaces (note: No DHCP)
-Change your DNS settings - /etc/resolve.conf (note: Resolvconf has been removed so you must put your settings in here manually)
-Change host file - /etc/hosts
-
+When you login for the first time the configuration script will run which sets all of the network settings. You can run this anytime by executing /usr/bin/rasperf-setup 
