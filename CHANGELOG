@@ -1,8 +1,17 @@
-RasPerf-Wheezy 0.2 (3/1/2015)
------------------------------
+RasPerf 0.3 (4/1/2015)
+----------------------
+- Base distribution is now Jessie instead of Wheezy
+- Switched back to sysvinit-core from systemd (systemd uses too much memory)
+- Updated setup script to give the option to expand the root file system and change root password
+- Added compression for apt indexes
+- Shrunk the partition sizes so that the image can be deployed on a 512mb SD card.
+- Changed versioning to $date-rasperf.img
+- SIZE: 232MB rootfs & 18MB of RAM
+
+RasPerf 0.2 (2/1/2015)
+----------------------
 - Shrunk the Linux partition size to 800MB allowing the image to be deployed on a SD 1gb card.
 - Added a setup script (/usr/bin/rasperf-setup) which is exected at first logon
-- Removed dbus
 - Disabled cron on start-up
 - Cleaned up configuration files
 - Removed some unrequired libraries
@@ -10,7 +19,10 @@ RasPerf-Wheezy 0.2 (3/1/2015)
 - Removed documentation from /usr/share/doc
 - SIZE: 320MB rootfs & 19MB of RAM
 
-RasPerf-Wheezy 0.1 (1/1/2015)
------------------------------
+RasPerf 0.1 (1/1/2015)
+----------------------
 - Initial Release
+- replaced openssh with dropbear
+- replaced rsyslogd with inetutils-syslogd
+- reduced rootfs size requirements
 - SIZE: 400MB rootfs & 21MB of RAM

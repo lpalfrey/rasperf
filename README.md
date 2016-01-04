@@ -11,7 +11,7 @@ RasPerf is a fork (ish) of Raspbian which is optimised for my requirements. It w
 - Kernel optimizations
 - Generally performance optimized for the RPi2
 
-After installation it should use around 320MB of disk space and 19MB of RAM. 
+After installation it should use around 232MB, 18MB of RAM and boot in less than 7 seconds. 
 
 Note that this was built for my requirements. I am sharing it just in case anyone else finds it useful. 
 
