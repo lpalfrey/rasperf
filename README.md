@@ -19,7 +19,7 @@ Note that this was built for my requirements. I am sharing it just in case anyon
 Why
 ---
 
-I was building a cluster which requires Wheezy (Don't ask!) and there was no minimal build of of Raspbian-Wheezy. Also, my cluster required every MB of memory I could find - so I went about reducing the memory as much as I could without breaking the Raspbian distribution (i.e, no custom kernel etc). 
+I needed a Rasbian version of LInux for my cluster but I required every MB of memory I could find - so I went about reducing the memory as much as I could without breaking the Raspbian distribution (i.e, no custom kernel etc). 
 
 There have also been some specific improvements which will help the performance of Java based applications. Although note that Java is not installed 
 
